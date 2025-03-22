@@ -1,0 +1,25 @@
+.ultimosposts {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-left: 75px;
+
+}
+
+.post {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  width: 370px;
+  height: 478px;
+}
+
+.post img {
+  width: 370px;
+  height: 259.57px;
+}
+
+.post p {
+width: 370px;
+}

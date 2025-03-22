@@ -1,0 +1,43 @@
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111827;
+    padding: 20px 75px ;
+  }
+  
+  .navegacao ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    color: #FFFFFF;
+  }
+  
+  .navegacao li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .navegacao h2 {
+    color: #FFFFFF;
+  }
+
+  .navegacao input {
+    border: none;
+    background-color: #1F2937;
+    width: 290px;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  .navegacao input::placeholder {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 19px;
+  }
+  

@@ -1,0 +1,27 @@
+.news {
+    display: flex;
+    flex-direction: row;
+    gap: 248px;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.principal {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 75px;
+}
+
+.secundaria {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 75px;
+}
+
+.news-secundaria {
+    gap: 20px;
+}

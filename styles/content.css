@@ -1,0 +1,35 @@
+.content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  background-color: #111827;
+  padding: 55px 74px 120px 74px;
+  align-content: center;
+
+}
+
+.content-container p {
+  font-weight: 700;
+  color: #6B7280;
+}
+
+
+.content-container h1 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.content-container span {
+  color: #6B7280;
+  cursor: pointer;
+}
+
+.content-container img {
+  width: 640;
+  height: 360;
+}
+
+.content {
+  width: 570px;
+  height: 311px;
+}
