@@ -1,6 +1,7 @@
 .ultimosposts {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 60px;
   padding-left: 75px;
 
@@ -20,6 +21,3 @@
   height: 259.57px;
 }
 
-.post p {
-width: 370px;
-}

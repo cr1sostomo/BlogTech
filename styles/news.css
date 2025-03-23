@@ -1,7 +1,7 @@
 .news {
     display: flex;
     flex-direction: row;
-    gap: 248px;
+    flex-wrap: wrap;
     padding-top: 60px;
     width: 100%;
 }
@@ -12,6 +12,7 @@
     flex-direction: column;
     gap: 20px;
     padding-left: 75px;
+    padding-bottom: 20px;
 }
 
 .secundaria {
@@ -23,5 +24,5 @@
 }
 
 .news-secundaria {
-    gap: 20px;
+    padding-left: 75px;
 }
